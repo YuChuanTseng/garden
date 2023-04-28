@@ -1,1 +1,1 @@
-# Ted garden
+# Garden
