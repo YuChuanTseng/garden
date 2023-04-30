@@ -30,7 +30,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  YuChuanTseng
 
 # Build settings
-theme: tale
 remote_theme: chesterhow/tale
 permalink: /:year-:month-:day/:title
 paginate: 5

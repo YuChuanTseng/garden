@@ -255,6 +255,26 @@ footer span { color: #555; font-size: .8rem; }
 .catalogue-item { border-bottom: 1px solid #e5e5e5; color: #555; display: block; padding: 2rem 0; }
 .catalogue-item:hover .catalogue-line, .catalogue-item:focus .catalogue-line { width: 5rem; }
 .catalogue-item:last-child { border: 0; }
+.catalogue-pinned { color: #aaa; font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif; letter-spacing: .5px; }
 .catalogue-time { color: #aaa; font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif; letter-spacing: .5px; }
 .catalogue-title { color: #353535; display: block; font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif; font-size: 2rem; font-weight: 700; margin: .5rem 0; }
 .catalogue-line { -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; border-top: 0.2rem solid #353535; display: block; width: 2rem; }
+
+.notfound { position: relative; text-align: center; margin: 4rem 0; }
+.notfound-error { font-size: 4rem; margin: 1rem 0; }
+.notfound-line { border-top: 0.4rem solid #353535; display: block; margin: 0 auto 3rem; width: 4rem; }
+.notfound-message { max-width: 25rem; margin: 0 auto; }
+
+.tags-header-title { color: #353535; font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif; font-size: 4rem; margin: 1rem 0; text-align: center; }
+.tags-header-line { border-top: 0.4rem solid #353535; display: block; margin: 0 auto 3rem; width: 4rem; }
+.tags-clouds { text-align: center; font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif; }
+.tags-clouds a { display: inline-block; margin: 0 0.1rem 0.2rem; padding: 0.2rem 0.5rem; background: rgba(0, 0, 0, 0.05); border-radius: 5px; color: #555; text-decoration: none; }
+.tags-clouds a:hover, .tags-clouds a:active { background: rgba(0, 0, 0, 0.1); }
+.tags-item-icon { height: 1rem; }
+.tags-item-label { display: inline-block; margin: 2rem 0 0.5rem; font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif; color: #555; }
+.tags-post { display: flex; justify-content: space-between; padding: 5px 0; }
+.tags-post-title { color: #555; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tags-post-line { -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; border-top: 0.1rem solid #353535; display: block; width: 0; }
+.tags-post-meta { color: #aaa; text-align: right; white-space: nowrap; }
+.tags-post:hover .tags-post-line, .tags-post:active .tags-post-line { width: 3rem; }
+.tags-post:hover .tags-post-meta, .tags-post:active .tags-post-meta { color: #353535; }
